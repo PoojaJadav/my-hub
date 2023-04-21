@@ -2794,7 +2794,7 @@
             "dist": {
                 "type": "path",
                 "url": "../laravel-impersonate",
-                "reference": "0f8df42503a8f971c24186a2ddbc503a0427f1c7"
+                "reference": "84f9f59a3c457ec5b9e82af5d25aa14c5f99f382"
             },
             "require": {
                 "illuminate/contracts": "^9.0",
@@ -2863,10 +2863,11 @@
                 {
                     "name": "Pooja Jadav",
                     "email": "contact2pooja36@gmail.com",
+                    "homepage": "https://www.pinetco.com",
                     "role": "Developer"
                 }
             ],
-            "description": "This is my package laravel-impersonate",
+            "description": "Laravel Impersonate - A package that allows for easy and secure user impersonation within a Laravel application.",
             "homepage": "https://github.com/pinetco-dev/laravel-impersonate",
             "keywords": [
                 "laravel",
@@ -3596,25 +3597,25 @@
         },
         {
             "name": "spatie/laravel-package-tools",
-            "version": "1.13.8",
+            "version": "1.14.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-package-tools.git",
-                "reference": "781a2f637237e69c277eb401063acf15e2b4156b"
+                "reference": "bab62023a4745a61170ad5424184533685e73c2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-package-tools/zipball/781a2f637237e69c277eb401063acf15e2b4156b",
-                "reference": "781a2f637237e69c277eb401063acf15e2b4156b",
+                "url": "https://api.github.com/repos/spatie/laravel-package-tools/zipball/bab62023a4745a61170ad5424184533685e73c2d",
+                "reference": "bab62023a4745a61170ad5424184533685e73c2d",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "^9.28",
+                "illuminate/contracts": "^9.28|^10.0",
                 "php": "^8.0"
             },
             "require-dev": {
                 "mockery/mockery": "^1.5",
-                "orchestra/testbench": "^7.7",
+                "orchestra/testbench": "^7.7|^8.0",
                 "pestphp/pest": "^1.22",
                 "phpunit/phpunit": "^9.5.24",
                 "spatie/pest-plugin-test-time": "^1.1"
@@ -3644,7 +3645,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-package-tools/issues",
-                "source": "https://github.com/spatie/laravel-package-tools/tree/1.13.8"
+                "source": "https://github.com/spatie/laravel-package-tools/tree/1.14.2"
             },
             "funding": [
                 {
@@ -3652,7 +3653,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-12-20T14:09:05+00:00"
+            "time": "2023-03-14T16:41:21+00:00"
         },
         {
             "name": "symfony/console",
@@ -8569,9 +8570,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "pinetco-dev/laravel-impersonate": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
